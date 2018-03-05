@@ -3,3 +3,9 @@
   font-family: 'Pacifico', cursive;
   font-size: 2rem;
 }
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
