@@ -1,0 +1,26 @@
+.bg-img {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(https://previews.123rf.com/images/niserin/niserin1304/niserin130400046/19290350-colorful-watercolor-splash-on-white-paper-art-background.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+}
+
+.landing_title {
+  color: black;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+.landing_subtitle {
+  color: black;
+  font-family: 'Mina', sans-serif;
+  font-size: 1.5rem;
+}
