@@ -13,7 +13,9 @@ const Landing = () => {
               </h1>
               <br />
               <h2 className="landing_subtitle">
-                <span>Buy your favorites paintings at the best price!</span>
+                <span>
+                  Buy your favorites paintings online at the best price!
+                </span>
               </h2>
             </div>
           </div>
