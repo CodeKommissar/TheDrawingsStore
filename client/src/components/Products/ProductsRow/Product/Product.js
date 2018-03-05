@@ -26,7 +26,9 @@ const Product = (props) => {
                   amount={props.price * 100}
                   stripeKey={process.env.REACT_APP_STRIPE_KEY}
               >
-                  <a class="button is-success">Purchase for ${props.price}</a>
+                  <a class="button is-success is-outlined">
+                    <span id="purchase_copy">Purchase for ${props.price}</span>
+                  </a>
               </StripeCheckout>
             </div>
           </div>
