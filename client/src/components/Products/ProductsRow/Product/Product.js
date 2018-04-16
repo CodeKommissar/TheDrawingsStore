@@ -15,18 +15,19 @@ const Product = (props) => {
       </div>
       <div className="card-content">
         <div className="has-text-centered">
-          <div class="columns">
-            <div class="column">
+          <div className="columns">
+            <div className="column">
               <p className="product_title">"{props.title}"</p>
             </div>
-            <div class="column">
+            <div className="column">
               <StripeCheckout
                   name="The Drawings Store"
                   description={`Pay $${props.price} for "${props.title}"`}
                   amount={props.price * 100}
                   stripeKey={process.env.REACT_APP_STRIPE_KEY}
+                  token={() => "123"}
               >
-                  <a class="button is-success is-outlined">
+                  <a className="button is-success is-outlined">
                     <span id="purchase_copy">Purchase for ${props.price}</span>
                   </a>
               </StripeCheckout>

@@ -4,7 +4,7 @@ import Product from "./Product/Product";
 const ProductsRow = (props) => {
   return (
     <div className="container">
-      <div class="columns">
+      <div className="columns">
         {props.products.map(product => {
           return <Product
                     key={product._id}
